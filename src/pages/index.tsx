@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { NavBar } from "../components/NavBar";
+import { Panel } from "../components/Panel";
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +13,8 @@ const Home: NextPage = () => {
           href="/favicon/tractian-favicon-ia.png"
         ></link>
       </Head>
-      <NavBar></NavBar>
+      <NavBar />
+      <Panel />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const NavBarContainer = styled.nav`
   position: fixed;
   top: 0;
+  z-index: 1;
 
   width: 100vw;
   height: 60px;

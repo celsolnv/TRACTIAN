@@ -7,6 +7,8 @@ declare module "styled-components" {
       primary: string;
       text: string;
       green: string;
+      "tw-gradient-to": string;
+      "tw-gradient-from": string;
     };
   }
 }

@@ -48,7 +48,7 @@ export const DemoButton = styled.button`
   width: 158px;
   height: 36px;
 
-  background-color: rgb(36, 209, 99);
+  background-color: ${(props) => props.theme.colors.green};
   border: none;
   border-radius: 5px;
 
